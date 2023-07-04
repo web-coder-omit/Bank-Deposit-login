@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&display=swap');
+body{
+  font-family: 'Belanosima', sans-serif;
+}
+.mainHeader{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  height:300px;
+}
+.mainHeader div{
+  width: 300px;
+  height: 140px;
+  border-radius: 5px;
+  transition:.5s;
+}
+.innerHeader1{
+  background-color: #7ed6df;
+}
+.mainHeader div:hover{
+  box-shadow: 5px 5px 8px #635a4e49;
+}
+.innerHeader2{
+  background-color: #e056fd;
+}
+.innerHeader3{
+  background-color: #686de0;
+}
+.mainHeader div h1,h2{
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+.mainHeader div h2{
+font-size: 30px;
+}
+/* section1 */
+.section1Container{
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+}
+.section1Container div{
+  border-radius: 5px;
+  width: 360px;
+  height: 160px;
+  text-align: center;
+}
+.section1Container div h1{
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+.section1Container div input{
+  /* border: 1px solid black; */
+  padding:2px 2px 3px 10px;
+  border-radius: 4px;
+  width: 250px;
+}
+.section1Child1{
+  background-color: #ff4d4d;
+  transition:.5s;
+}
+.section1Child1 input{
+  outline-color:#ff4d4d ;
+}
+
+.section1Child2 input{
+  outline-color:#ffaf40 ;
+}
+.section1Child2{
+  background-color:#ffaf40;
+  transition:.5s;
+}
+.section1Child1:hover{
+  box-shadow: 5px 5px 8px #5a020269;
+}
+.section1Child2:hover{
+  box-shadow: 5px 5px 8px #41362869;
+}
+.section1Container div button{
+  display: block;
+  border:1px solid white;
+  /* padding: 4px 40px 4px 40px; */
+  width:150px;
+  border-radius: 4px;
+  height:35px;
+  margin:10px auto;
+  color:white;
+}
